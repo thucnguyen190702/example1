@@ -1,7 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-
 import { Message } from '@example1/api-interfaces';
-
 import { AppService } from './app.service';
 
 @Controller()
