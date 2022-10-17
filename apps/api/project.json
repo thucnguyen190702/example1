@@ -33,7 +33,7 @@
       "executor": "@nrwl/js:node",
       "options": {
         "buildTarget": "api:build",
-        "port": 3333
+        "port": 8080
       },
       "configurations": {
         "production": {

@@ -10,7 +10,7 @@ import { AppModule } from './app/app.module';
 import "reflect-metadata"
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(3333);
+  await app.listen(8080);
 }
 //nx run-many --parallel --target=serve --projects=api,example1
 bootstrap();
